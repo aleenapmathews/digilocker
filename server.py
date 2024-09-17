@@ -5,6 +5,7 @@ from werkzeug.utils import secure_filename
 from markupsafe import escape
 from helper import hash
 from db import *
+import gunicorn
 
 server = Flask(__name__)
 
@@ -154,5 +155,5 @@ def delete_file_view(file_name):
     return redirect("/user")
 
 
-if __name__=="__main__":
+if __name__ == "__main__":
     server.run()
