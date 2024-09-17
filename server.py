@@ -152,3 +152,7 @@ def delete_file_view(file_name):
     hash_id = get_hash_id_from_hash(hash_hex)
     delete_file(file_name, hash_id)
     return redirect("/user")
+
+
+if __name__=="__main__":
+    server.run()
