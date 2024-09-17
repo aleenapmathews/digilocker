@@ -2,5 +2,6 @@
 
 Flask==3.0.3
 # Editable install with no version control (MarkupSafe==2.1.5)
--e /usr/lib/python3/dist-packages/MarkupSafe-2.1.5.egg-info
+# -e /usr/lib/python3/dist-packages/MarkupSafe-2.1.5.egg-info
+MarkupSafe==2.1.5
 Werkzeug==3.0.4
